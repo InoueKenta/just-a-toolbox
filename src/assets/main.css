@@ -1,0 +1,9 @@
+@import './base.css';
+@import './tailwind-import.css';
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
