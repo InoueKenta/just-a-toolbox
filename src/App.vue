@@ -3,16 +3,16 @@ import { RouterView } from 'vue-router'
 </script>
 
 <template>
-  <div data-theme="cupcake" class="min-h-screen">
-    <div class="container mx-auto">
-      <div class="navbar bg-base-100 py-6">
-        <h1 className="text-3xl font-bold green kbd kbd-lg">
-          Just a toolbox
+  <div data-theme="lofi" class="min-h-screen">
+    <div class="navbar bg-base-100 py-6 bg-secondary">
+      <div class="container mx-auto justify-center">
+        <h1 className="text-3xl font-bold text-secondary-content">
+          ⭐ Just a toolbox ⭐
         </h1>
       </div>
-      <div class="w-full">
-        <RouterView/>
-      </div>
+    </div>
+    <div>
+      <RouterView/>
     </div>
   </div>
 </template>

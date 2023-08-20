@@ -9,7 +9,7 @@ export const tools = [
   {
     name: "Random Tools",
     icon: SupportIcon,
-    description: "Randomizer ....",
+    description: "Randomizer",
     route: 'randomizer'
   }
 ]
