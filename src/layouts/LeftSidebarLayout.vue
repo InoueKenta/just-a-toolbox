@@ -1,7 +1,7 @@
 <template>
   <div class="bg-base-100 drawer lg:drawer-open">
     <input id="my-drawer" type="checkbox" class="drawer-toggle" />
-    <div class="drawer-content flex flex-col items-center justify-center">
+    <div class="drawer-content flex flex-col">
       <div class="max-w-[100vw] px-6 pb-16 xl:pr-2">
         <RouterView/>
       </div>
